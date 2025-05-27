@@ -1,0 +1,6 @@
+1. Data diambil dari endpoint https://jsonplaceholder.typicode.com/posts
+2. Dari endpoint tersebut hanya 2 field yang ditampilkan yaitu { Id, title }
+3. Kemudian di mapping ke "pojo" dan ditampilkan dengan factory design pattern,
+4. Terapkan dynamic pagination pada REST API
+5. Selanjutnya buat sebuah validasi untuk mengecek page dan page size yang akan ditampilkan. 
+6. Terakhir buatlah sebuah custom Error Exception Handling untuk menghandle error response
